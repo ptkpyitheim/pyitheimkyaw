@@ -1,0 +1,303 @@
+body, html {
+  height: 100%;
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.page-header {
+    /* The image used */
+    background-image: url('images/background.png');
+    /*filter: grayscale(20%);*/
+    text-align: center;
+    height: 90%;
+    width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-header {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+    padding-top: 15%;
+    position: relative;
+    right: 180px;
+}
+
+@media (max-width: 767px) {
+  .text-header {
+    padding-top: 40%;
+   right: 0px;
+  }
+}
+
+.body {
+  height:100%;
+  font-size:17px;
+  text-align: center;
+}
+
+.elevator-pitch div {
+  margin-bottom: 30px;
+}
+
+#nav-bar {
+  background-color: rgba(244,160,0,0.95);
+  /* background-color: grey; */
+  padding: 0px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#nav-bar #name {
+  font-size: 1em;
+  /* color: rgb(244,160,0); */
+  color: black;
+}
+
+.nav-item a {
+  color: #eee;
+}
+
+
+.elevator-pitch, .education-history, .work-experience, .recommendation, .leadership-experience, .passion, .contact-info, .projects {
+  padding: 50px 0px 80px;
+}
+
+
+.education-history, .projects, .passion, .contact-info {
+  background-color: #EEE;
+}
+
+.text-pitch {
+  color: #0f9d58;
+}
+
+#inspire {
+  font-size: 1.2em;
+}
+
+.recommendation, .contact-info {
+  padding: 0px 0px 50px;
+}
+
+/* For titles education, experience, hobbies */
+.title {
+  font-size: 1.5em;
+}
+
+#name {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/*>>>>> Education section */
+#washu, #depauw, #id-tech {
+  margin-top: 30px;
+}
+
+.template-logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  align-items: center;
+}
+
+#sps-logo, #admission-logo {
+  border-radius: 0;
+}
+
+.template-header {
+  color: #4285f4;
+  font-weight: bolder;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+#globalhack-logo {
+  height: 120px;
+  width: 200px;
+}
+
+#template-description {
+  text-align: left;
+}
+
+#modal-btns {
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 13px;
+}
+
+.template-gist {
+  font-size: 0.9em;
+}
+
+.heading-abstract {
+  font-size: 1.2em;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.names-abstract {
+  text-align: center;
+  font-style: italic;
+  margin: 5px 5px 5px 5px;
+  color: grey;
+}
+
+.info-abstract {
+  text-align: right;
+  color: grey;
+  margin-top: 4px;
+}
+
+/* Education section ends here */
+
+/* Projects */
+
+#text-craft {
+  color: #0F9D58;
+  font-size: 1.5em;
+}
+
+.projects-header {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.7em;
+}
+
+.projects-description {
+  margin: 15px 100px 15px 100px;
+}
+
+.carousel {
+  background-color: rgba(33, 37, 41, 0.8);
+  width: 100%;
+}
+
+.carousel-caption {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.carouselBtn {
+  margin-bottom: 15px;
+  padding: 5px;
+  font-size: 13px;
+}
+
+.graypic {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.graypic:hover {
+  -webkit-filter: none;
+  filter: none;
+}
+
+#no-bg-caption {
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+/*>>>>> Recommendation section */
+#recommendation-bar {
+  background-color: #4285f4;
+  padding: 0px;
+  color: #eee;
+}
+
+.rec-button {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.rec-title {
+  float: left;
+}
+
+.display-recommendations {
+  margin: 30px 250px 30px 250px;
+  padding-top: 20px;
+  border-top:1px solid black;
+}
+
+.display-rec-name {
+  font-size: 1.5em;
+}
+
+.display-relationship {
+  font-style: italic;
+}
+
+/* Recommendation section ends here */
+
+
+
+/*>>>>> Footer **/
+
+#footer-bar {
+  background-color: #0f9d58; /* Green */
+  padding: 0px;
+  color: #eee;
+}
+
+.icons img {
+  width: 80px;
+  height: 80px;
+  border: 2px solid;
+  border-radius: 50%;
+  border-color: #db4437;
+  padding: 2px;
+}
+
+.icons a {
+  padding: 20px;
+}
+
+.icons img:hover {
+  background-color: #0f9d58;
+}
+
+.mm-flag img {
+  width: 80px;
+  height: 50px;
+  float: right;
+  padding: 0px 5px 5px;
+}
+
+.mm-flag img:hover {
+  filter: grayscale(100%);
+}
+
+#whichever {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.git {
+  margin-top: 10px;
+}
+
+.git img:hover {
+  background-color: #0f9d58;
+  border: 2px black solid;
+}
+
+/* Footer end */
+
+.weblinks {
+  font-size: 0.7em;
+  margin-bottom: 15px;
+}
+
+
